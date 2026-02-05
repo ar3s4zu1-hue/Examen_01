@@ -1,0 +1,26 @@
+.Tablas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.tabla {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.tabla h2 {
+    margin-bottom: 10px;
+    background-color: #222;
+    color: #fff;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.tabla p {
+    margin: 2px 0;
+    font-size: 14px;
+}
